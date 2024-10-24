@@ -91,25 +91,25 @@
 			</div>
 			
 			<div class="main-container">
-				<section class="cover fullscreen image-bg overlay parallax">
-					<div class="background-image-holder">
-						<img alt="image" class="background-image" src="img/2.jpg">
-					</div>
-					<div class="container v-align-transform">
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<div class="text-center content-wrapper">
-									<h2 class="title-text">Melina & German</h2>
-									<h4 class="sub-title-text">Nos encontramos, nos enamoramos y juntos construimos nuestro destino</h4>
-									<h1 class="main-title">¡Nos Casamos!</h1>
-									<h4 class="sub-title-text">Y nos gustaría que nos acompañes a celebrar este hermoso capítulo de nuestra historia</h4>
-									<div class="countdown mb40" data-date="2025/03/29 20:00:00"></div>
-									<a class="btn btn-lg btn-white mb0 inner-link" id="btnc" href="index.html#info">ver información</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+					<section class="cover fullscreen image-bg overlay parallax">
+			        <div class="background-image-holder">
+			            <img alt="image" class="background-image" src="img/2.jpg">
+			        </div>
+			        <div class="container v-align-transform">
+			            <div class="row">
+			                <div class="col-md-12 text-center">
+			                    <div class="text-center">
+			                    	<h2 style="font-family: 'Dancing Script', cursive; font-size:40px;">Melina & German</h2>
+			                    	<h4>Nos encontramos, nos enamoramos y juntos construimos nuestro destino</h4>
+			                        <h1 class=" large  mb40 mb-xs-24" style="font-family: 'Dancing Script', cursive; font-size:55px">¡Nos Casamos!</h1>
+			                        <h4>Y nos gustaria que nos acompañes a celebrar este hermoso capitulo de nuestra historia</h4>
+			                        <div class="countdown mb40" data-date="2025/03/29 18:30:00"></div>
+			                        <a class="btn btn-lg btn-white mb0 inner-link" id="btnc" href="index.html#info">ver información</a>
+			                    </div>
+			                </div>
+			            </div>		            
+			        </div>
+			    </section>
 
 			    <section id="infotodo">
 			        <div class="container">
@@ -469,7 +469,7 @@
 					            <var class="atc_description">Casamiento Melina & German</var>
 					            <var class="atc_location">Av. Hipólito Yrigoyen 7835, San Rafael, Mendoza.</var>
 					            <var class="atc_organizer">Melina & German</var>
-					            <var class="atc_organizer_email">claudiotico@gmail.com</var>
+					            <var class="atc_organizer_email">germank94@gmail.com</var>
 					        </var>
     					</span>
 				    </div>
@@ -553,9 +553,10 @@
 			document.getElementById('sendConfirmation').addEventListener('click', function () {
 				var asistentes = document.getElementById('num-asistentes').value;
 				var menuEspecial = document.getElementById('menu-especial').value || "ninguno";
+				var observaciones = document.getElementById('observaciones').value || "ninguna"; // Capturar observaciones
 				
 				// Armar el cuerpo del correo con los datos capturados
-				var mailtoLink = 'mailto:claudiotico@gmail.com?subject=¡Si Voy!&body=' +
+				var mailtoLink = 'mailto:germank94@gmail.com?subject=¡Si Voy!&body=' +
 					'Con este mail nos confirmas que venís a compartir este día con nosotros.%0A' +
 					'Número de asistentes: ' + asistentes + '%0A' +
 					'Menú especial: ' + menuEspecial + '%0A' +
